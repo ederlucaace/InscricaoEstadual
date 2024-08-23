@@ -8,8 +8,6 @@
 
 Biblioteca de validação de inscrição estadual para todos os estados brasileiros.
 
-## Coverage
-[![Coverage](https://codecov.io/gh/Thiagocfn/InscricaoEstadual/branch/master/graphs/sunburst.svg)](https://codecov.io/gh/Thiagocfn/InscricaoEstadual/branch/master)
 
 
 ## Requerimentos
