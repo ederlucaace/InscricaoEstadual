@@ -1,5 +1,5 @@
 {
-  "name": "thiagocfn/inscricaoestadual",
+  "name": "ederlucaace/inscricaoestadual",
   "homepage": "https://github.com/thiagocfn/inscricaoestadual",
   "license": "MIT",
   "type": "library",
@@ -9,8 +9,8 @@
   },
   "authors": [
     {
-      "name": "Thiago Souza",
-      "email": "thiagocfn@msn.com"
+      "name": "Eder Luca",
+      "email": "eder.luca@acessorias.com"
     }
   ],
   "require-dev": {
