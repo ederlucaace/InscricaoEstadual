@@ -19,12 +19,12 @@
   },
   "autoload": {
     "psr-4": {
-      "Thiagocfn\\InscricaoEstadual\\": "src/"
+      "ederlucaace\\InscricaoEstadual\\": "src/"
     }
   },
   "autoload-dev": {
     "psr-4": {
-      "Thiagocfn\\InscricaoEstadual\\": "tests/"
+      "ederlucaace\\InscricaoEstadual\\": "tests/"
     }
   }
 }
