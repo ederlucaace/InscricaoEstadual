@@ -2,41 +2,41 @@
 /**
  * @author   "Thiago Souza" <thiagocfn@msn.com>
  * @version  1.0
- * @link     https://github.com/thiagocfn/InscricaoEstadual
- * @example  https://github.com/thiagocfn/InscricaoEstadual
+ * @link     https://github.com/ederlucaace/InscricaoEstadual
+ * @example  https://github.com/ederlucaace/InscricaoEstadual
  * @license  Revised BSD
  */
 
-namespace Thiagocfn\InscricaoEstadual\Util;
+namespace ederlucaace\InscricaoEstadual\Util;
 
 
-use Thiagocfn\InscricaoEstadual\Util\Validador\Acre;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Alagoas;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Amapa;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Amazonas;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Bahia;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Ceara;
-use Thiagocfn\InscricaoEstadual\Util\Validador\DistritoFederal;
-use Thiagocfn\InscricaoEstadual\Util\Validador\EspiritoSanto;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Goias;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Maranhao;
-use Thiagocfn\InscricaoEstadual\Util\Validador\MatoGrosso;
-use Thiagocfn\InscricaoEstadual\Util\Validador\MatoGrossoDoSul;
-use Thiagocfn\InscricaoEstadual\Util\Validador\MinasGerais;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Para;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Paraiba;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Parana;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Pernambuco;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Piaui;
-use Thiagocfn\InscricaoEstadual\Util\Validador\RioDeJaneiro;
-use Thiagocfn\InscricaoEstadual\Util\Validador\RioGrandeDoNorte;
-use Thiagocfn\InscricaoEstadual\Util\Validador\RioGrandeDoSul;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Rondonia;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Roraima;
-use Thiagocfn\InscricaoEstadual\Util\Validador\SantaCatarina;
-use Thiagocfn\InscricaoEstadual\Util\Validador\SaoPaulo;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Sergipe;
-use Thiagocfn\InscricaoEstadual\Util\Validador\Tocantins;
+use ederlucaace\InscricaoEstadual\Util\Validador\Acre;
+use ederlucaace\InscricaoEstadual\Util\Validador\Alagoas;
+use ederlucaace\InscricaoEstadual\Util\Validador\Amapa;
+use ederlucaace\InscricaoEstadual\Util\Validador\Amazonas;
+use ederlucaace\InscricaoEstadual\Util\Validador\Bahia;
+use ederlucaace\InscricaoEstadual\Util\Validador\Ceara;
+use ederlucaace\InscricaoEstadual\Util\Validador\DistritoFederal;
+use ederlucaace\InscricaoEstadual\Util\Validador\EspiritoSanto;
+use ederlucaace\InscricaoEstadual\Util\Validador\Goias;
+use ederlucaace\InscricaoEstadual\Util\Validador\Maranhao;
+use ederlucaace\InscricaoEstadual\Util\Validador\MatoGrosso;
+use ederlucaace\InscricaoEstadual\Util\Validador\MatoGrossoDoSul;
+use ederlucaace\InscricaoEstadual\Util\Validador\MinasGerais;
+use ederlucaace\InscricaoEstadual\Util\Validador\Para;
+use ederlucaace\InscricaoEstadual\Util\Validador\Paraiba;
+use ederlucaace\InscricaoEstadual\Util\Validador\Parana;
+use ederlucaace\InscricaoEstadual\Util\Validador\Pernambuco;
+use ederlucaace\InscricaoEstadual\Util\Validador\Piaui;
+use ederlucaace\InscricaoEstadual\Util\Validador\RioDeJaneiro;
+use ederlucaace\InscricaoEstadual\Util\Validador\RioGrandeDoNorte;
+use ederlucaace\InscricaoEstadual\Util\Validador\RioGrandeDoSul;
+use ederlucaace\InscricaoEstadual\Util\Validador\Rondonia;
+use ederlucaace\InscricaoEstadual\Util\Validador\Roraima;
+use ederlucaace\InscricaoEstadual\Util\Validador\SantaCatarina;
+use ederlucaace\InscricaoEstadual\Util\Validador\SaoPaulo;
+use ederlucaace\InscricaoEstadual\Util\Validador\Sergipe;
+use ederlucaace\InscricaoEstadual\Util\Validador\Tocantins;
 
 class Validador
 {
@@ -59,8 +59,7 @@ class Validador
         switch ($estado) {
             case Estados::AC:
                 $valid = Acre::check($inscricao_estadual);
-                break;
-            case Estados::AL:
+            break;
                 $valid = Alagoas::check($inscricao_estadual);
                 break;
             case Estados::AP:

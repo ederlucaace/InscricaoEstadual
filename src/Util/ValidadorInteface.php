@@ -6,7 +6,7 @@
  * Time: 17:56
  */
 
-namespace Thiagocfn\InscricaoEstadual\Util;
+namespace ederlucaace\InscricaoEstadual\Util;
 
 
 interface ValidadorInteface

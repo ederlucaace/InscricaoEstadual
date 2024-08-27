@@ -6,7 +6,7 @@
  * Time: 17:59
  */
 
-namespace Thiagocfn\InscricaoEstadual\Util;
+namespace ederlucaace\InscricaoEstadual\Util;
 
 
 class Estados

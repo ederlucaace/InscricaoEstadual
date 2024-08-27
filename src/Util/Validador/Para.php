@@ -1,6 +1,6 @@
 <?php
 
-namespace Thiagocfn\InscricaoEstadual\Util\Validador;
+namespace ederlucaace\InscricaoEstadual\Util\Validador;
 
 
 class Para extends Ceara

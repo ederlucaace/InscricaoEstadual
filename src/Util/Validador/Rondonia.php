@@ -1,9 +1,9 @@
 <?php
 
-namespace Thiagocfn\InscricaoEstadual\Util\Validador;
+namespace ederlucaace\InscricaoEstadual\Util\Validador;
 
 
-use Thiagocfn\InscricaoEstadual\Util\ValidadorInteface;
+use ederlucaace\InscricaoEstadual\Util\ValidadorInteface;
 
 class Rondonia implements ValidadorInteface
 {
