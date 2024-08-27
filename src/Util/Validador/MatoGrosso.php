@@ -18,8 +18,8 @@ class MatoGrosso implements ValidadorInteface
     public static function check($inscricao_estadual)
     {
         $valid = true;
-        // se não tiver 11 digitos não é valido
-        if (strlen($inscricao_estadual) != 11) {
+        // se não tiver 9 digitos não é valido
+        if (strlen($inscricao_estadual) != 9) {
             $valid = false;
         }
         if ($valid && !self::calculaDigito($inscricao_estadual)) {
@@ -30,16 +30,15 @@ class MatoGrosso implements ValidadorInteface
     }
 
     /**
-     * Valida o dígito da inscrição estadual
+     * Valida o dígito da inscrição estadual do Mato Grosso
      *
-     * Pesos: 3 2 9 8 7 6 5 4 3 2 para calculo do dígito
+     * Pesos: 9 8 7 6 5 4 3 2 para cálculo do dígito
      * @param $inscricao_estadual string inscricao estadual
      * @return bool true caso o digito seja verificado, false caso contrário.
      */
     protected static function calculaDigito($inscricao_estadual)
     {
-        $peso = 3;
-        $posicao = 10;
+        $peso = 9;
         $soma = 0;
         $length = strlen($inscricao_estadual);
         $corpo = substr($inscricao_estadual, 0, $length - 1);
@@ -57,6 +56,6 @@ class MatoGrosso implements ValidadorInteface
         if ($dig >= 10) {
             $dig = 0;
         }
-        return $dig == $inscricao_estadual[$posicao];
+        return $dig == $inscricao_estadual[$length - 1];
     }
 }
