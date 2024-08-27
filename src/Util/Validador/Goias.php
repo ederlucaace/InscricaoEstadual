@@ -56,13 +56,12 @@ class Goias implements ValidadorInteface
 
         $dig = 11 - $resto;
 
-        if ($dig >= 10) {
+        if (($dig >= 10)&&($corpo!='11094402')) {
             if ($dig == 11 && '10103105' <= $corpo && $corpo <= '10119997') {
                 $dig = 1;
             } else {
                 $dig = 0;
             }
-
         }
         return $dig == $inscricao_estadual[$posicao];
     }
